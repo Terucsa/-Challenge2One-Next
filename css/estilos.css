@@ -1,0 +1,82 @@
+/*Mejoras generales*/
+body{
+    background-color: #f3f5fc;
+}
+html{
+    font-size: 16px;
+}
+/*Mejora del header*/
+.logo-cabe{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/*Trabajando en la imagen del ahorcado*/
+.hombre-ahorcado{
+    width: 100vw;
+    text-align: center;
+    height: 40vh;
+    margin-top: 6.8rem;
+    margin-bottom: 6rem;
+}
+#hombre{
+    max-width: 100%;
+    height: auto;
+    width: 16.75rem;
+    height: 16.75rem;
+    display: inline-block;
+}
+/*Letras errado y advidinado*/
+.adivinado{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: #242d34;
+}
+.letra-adi{
+    display: inline-block;
+    padding: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+    font-size: 1.8rem;
+    color: #002462;
+    border-bottom: 1px solid #002462;
+    line-height: 5rem;
+}
+.errado{
+    text-align: center;
+    margin-top: 1rem;
+    color: #242d34;
+    
+}
+.letra-errada{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+/*Botones apartir de aquí*/
+.btn{
+    text-align: center;
+    margin-top: 3rem
+}
+[type="button"]{
+    width: 15rem;
+    padding: 1.5rem;
+    border-radius: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.btn-azu{
+    background-color: #0a3871;
+    color: white;
+    font-size: 18px;
+}
+.btn-bla{
+    background-color: white;
+    color:  #0a3871;
+    font-size: 18px;
+}
+[type="button"]:hover{
+    background-color: #242d34;
+    color: white;
+}
+    
