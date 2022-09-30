@@ -23,7 +23,7 @@
     // Actualizar la imagen del hombre
     var $elem
     $elem = $html.hombre
-    $elem.src = '/img/0' + juego.estado + '.png'
+    $elem.src = 'img/0' + juego.estado + '.png'
   
     // Creamos las letras adivinadas
     var estado = juego.estado
@@ -71,7 +71,6 @@
           }
       
       var palabra = juego.palabra
-      var letras = juego.letra
       if (palabra.indexOf(letra) >= 0){
         let ganado = true;
         //?De vemos ver si ganamos
