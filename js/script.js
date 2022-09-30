@@ -23,7 +23,7 @@
     // Actualizar la imagen del hombre
     var $elem
     $elem = $html.hombre
-    $elem.src = 'img/0' + juego.estado + '.png'
+    $elem.src = '//img/0' + juego.estado + '.png'
   
     // Creamos las letras adivinadas
     var estado = juego.estado
